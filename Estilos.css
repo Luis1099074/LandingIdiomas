@@ -3,7 +3,7 @@ body
     background: rgb(255, 255, 255);
  font-family: Arial, Helvetica, sans-serif;
 }
-#container {
+.container {
 
     width: auto; 
     margin: auto;
@@ -19,10 +19,35 @@ header {
 
 
 }
-ul.navar-items li {
-    display: inline;
+.logo1{
+    float: left;
+    list-style-type: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
 }
-ul.navar-items {
-    min-width: 696px;
-    padding-top: 20px;
-}
+
+
+.menu {
+    float: right;
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+    display: flex; /* Usamos flexbox para crear un diseño horizontal */
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Agregamos un margen derecho entre los elementos del menú */
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 8px 40px; /* Agregamos espacio de relleno para mejorar la apariencia del menú */
+    text-decoration: none;
+    color: #ffffff; /* Cambia el color de texto según tus preferencias */
+  }
+  
+  .menu li a:hover {
+    background-color: #474747; /* Cambia el color de fondo cuando se pasa el mouse por encima */
+  }
