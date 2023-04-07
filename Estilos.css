@@ -34,20 +34,51 @@ header {
     list-style-type: none;
     margin: 40px;
     padding: 0;
-    display: flex; /* Usamos flexbox para crear un diseño horizontal */
+    display: flex; 
   }
   
   .menu li {
-    margin-right: 20px; /* Agregamos un margen derecho entre los elementos del menú */
+    margin-right: 20px; 
   }
   
   .menu li a {
     display: block;
-    padding: 8px 40px; /* Agregamos espacio de relleno para mejorar la apariencia del menú */
+    padding: 8px 40px; 
     text-decoration: none;
-    color: #ffffff; /* Cambia el color de texto según tus preferencias */
+    color: #ffffff; 
   }
   
   .menu li a:hover {
-    background-color: #474747; /* Cambia el color de fondo cuando se pasa el mouse por encima */
+    background-color: #474747; 
   }
+
+  .jumbotron{
+    background-color:rgb(22, 22, 22);
+    padding: 250px;
+    margin-bottom: 20px;
+  }
+  .jumbotron h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .jumbotron p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+.jumbotron .btn{
+    font-size: 18px;
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: #474747;
+    color: #474747;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.jumbotron .btn:hover{
+    background-color: #474747;
+}
+
+
