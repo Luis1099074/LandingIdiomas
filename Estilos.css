@@ -1,0 +1,28 @@
+body 
+{
+    background: rgb(255, 255, 255);
+ font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+
+    width: auto; 
+    margin: auto;
+    border : 0px solid rgb(0, 0, 0);
+}
+header {
+
+    background: rgb(0, 0, 0);
+    height: 100px;
+    width: auto;
+    margin: 0px;  
+    color: rgb(255, 255, 255);
+
+
+}
+ul.navar-items li {
+    display: inline;
+}
+ul.navar-items {
+    min-width: 696px;
+    padding-top: 20px;
+}
