@@ -68,17 +68,45 @@ header {
     margin-bottom: 20px;
     color: #ffffff;
   }
-.jumbotron .btn{
-    font-size: 18px;
-    padding: 15px 25px;
-    text-decoration: none;
-    background-color: #474747;
-    color: #474747;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.jumbotron .btn:hover{
-    background-color: #474747;
+
+.jumbotron h2 {
+    color:#ffffff;
 }
 
+.jumbotron img{
+    float: right;
+}
+.jumbotron input{
+    float: center;
+    height: 10px;
+    width: 600px;
+    padding: 3px;
+    font-size: 20px;
+}
+.jumbotron input{
+    float: center;
+    height: 40px;
+    width: 300px;
+}
+.boton1{
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 10px 19px;
+    border: 3px solid #ffffff;
+}
 
+.contenedor-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}    
+.textob{
+    text-align: center; 
+}
+.textob h1{
+    font-size: 60px;
+}
+.textob p{
+    font-size: 30px;
+}
