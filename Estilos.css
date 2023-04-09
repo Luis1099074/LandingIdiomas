@@ -110,3 +110,25 @@ header {
 .textob p{
     font-size: 30px;
 }
+.contenedorA{
+    background-color: rgb(22, 22, 22);
+}
+.contenedorA h1{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+.contenedorA p{
+    font-size: 20px;
+    color: #ffffff;
+}
+.contenedorA h2{
+    font-size: 30px;
+}
+.registro h2{
+    font-size: 25px;
+    color:#ffffff; 
+}
+.registro h2{
+font-size: 20px;
+
+}
