@@ -130,10 +130,7 @@ header {
     font-size: 20px;
     color:#ffffff;
 }
-.registro{
-    float: center
-;
-}
+
 .registro h2{
     float: left;
     font-size: 10px;
@@ -143,4 +140,36 @@ header {
     float: right;
     padding: 60px;
 }
-
+.Pie{
+    background-color: #ffffff;
+    float: right;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex; 
+    text-align: center;
+}
+.Pie nav{
+    display: flex;
+    justify-content: center;
+}
+.Pie li {
+    margin-right: 0px; 
+  }
+  
+.Pie li a {
+    display: block;
+    padding: 8px 30px; 
+    text-decoration: none;
+    color: #000000; 
+  }
+  
+.Pie li a:hover {
+    background-color: #474747; 
+  }
+.textoc{
+    text-align: center; 
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+}
